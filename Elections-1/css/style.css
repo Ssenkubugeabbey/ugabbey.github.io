@@ -1,0 +1,57 @@
+h1{
+    color: aqua;
+    background-color: #152bec;
+    text-align: center;
+    font-size: large;
+}
+p{
+    color: blue;
+
+  text-align: center;
+   font-style: italic;
+   background-image: none;
+   
+
+}
+body{
+    background-color: rgb(16, 199, 231);
+
+}
+img{
+   -webkit-box-reflect: inside;
+    border-radius: 50%;
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted aqua;
+}
+.tooltip.tooltiptext{
+   visibility: hidden;
+   width: 120px;
+   background-color: aqua;
+   color: #fff;
+   text-align: center;
+   border-radius: 6px;
+   padding: 5px 0;
+   position: absolute;
+   z-index: 1;
+   top: 150%;
+   left: 50%;
+   margin-left: -60px;
+}
+.tooltip.tooltiptext::after{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent blue;
+}
+.tooltip:hover.tooltiptext{
+    visibility: visible;
+}
+
+

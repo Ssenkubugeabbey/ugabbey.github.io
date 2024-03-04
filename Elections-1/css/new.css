@@ -1,0 +1,122 @@
+
+    body {
+        color: #350ce7;
+        background: aqua;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+nav{
+    color: rgb(224, 248, 11);
+   
+}
+.single-how-works{
+    text-align: center;
+    padding:50px 42px;
+    border-radius: 3px;
+    box-shadow: 0 0px 5px rgba(247, 7, 7, 0.911);
+    margin-bottom: 30px;
+    -webkit-transition: .3s linear; 
+    -moz-transition:.3s linear; 
+    -ms-transition:.3s linear; 
+    -o-transition:.3s linear;
+    transition: .3s linear;
+}
+body{
+    text-align: center;
+}
+img{
+    -webkit-box-reflect: inside;
+     border-radius: 50%;
+
+ .fa-facebook{
+    background: #3b5998;
+    color: white;
+}
+.fa-whatsapp{
+    background: green;
+    color: white;
+}
+.fa-X{
+    background:#55acee;
+    color: white;
+}
+body{
+    background-image: url('img/IMG_20230813_185103.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+boby{
+    font-size: 20px;
+}
+body,html{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.bg-image{
+    background-image: url("img/IMG_20230813_185103.jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    -webkit-filter: grayscale(100%);
+    filter:grayscale(50%);
+}
+body,html{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.bg-img{
+    background-image: url("img/IMG_20230813_185103.jpg");
+    min-height: 380px;
+    background-position:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+     position: relative;
+}
+.container{
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: aliceblue;
+
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    background-position: 50%;
+}
+input[type=text]:focus,input[type=password]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+.btn{
+    background-color: #350ce7;
+    color: #3b5998;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+
+}
+.btn:hover{
+    opacity: 1;
+
+}
